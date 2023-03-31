@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecontatos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600;900&display=swap" rel="stylesheet">
+</head>
+    <title>Projeto Pessoal</title>
+    </head>
+<body>
+<header> 
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="Sobre.html">Sobre mim</a></li>
+            <li><a href="Projetos.html">Projetos</a></li>
+            <li><a href="Novidades.html">Novidades</a></li>
+            <li><a href="Contatos.html">Redes sociais</a></li>
+        </ul>
+      </nav>
+</header>
+<aside>
+    <div class="links">
+    <img height="300px" src="gios_gourmet_qr.png">
+    <img height="300px" src="linkedin.png">
+    <img height="300px" src="whatsapp.png">
+</div>
+</aside>
+    <div class="box">
+        <form action="" method="post">
+            <fieldset>
+                <legend><b>Entre em Contato</b></legend>
+                <br>
+                <div class="InputBox">
+                    <input type="text" name="Nome" id="nome" class="InputUser" required>
+                    <label for="nome" class="labelinput">Nome completo</label>
+                </div>
+                <br>
+                <div class="InputBox">
+                    <input type="text" name="Email" id="email" class="InputUser" required>
+                    <label for="email"class="labelinput">Email</label>
+                    </div>
+                    <br>
+                    <div class="InputBox">
+                        <input type="tel" name="Telefone" id="telefone" class="InputUser" required>
+                        <label for="telefone"class="labelinput">Telefone</label>
+                        </div>
+                        <br>
+                        <div class="InputBox">
+                        <p>Gênero:</p>
+                        <input type="radio" name="Genero" id="feminino" value="Feminino">
+                        <label for="feminino">Feminino</label><br>
+                        <input type="radio" name="Genero" id="masculino" value="masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
+                    <br>
+                        <div class="InputBox">
+                            <label for="data_nascimento">Data de Nascimento</label>
+                            <input type="date" name="data_nascimento" id="data_nascimento" >
+                        </div>
+                        <br>
+                        <div class="InputBox" id="mensagem">
+                        <p>Deixe sua mensagem aqui</p><br>
+                        <textarea name="mensagem" rows="8" cols="30" id="mensagem"></textarea>
+                    </div>
+                    <br>
+                    <div class="InputBox">
+                        <input type="submit" name="Enviar" id="submit">
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+    
+
+<footer>
+    <section>&nbsp</section>
+</footer>
+
+
+
+<!-- termina o codigo -->
+</body>
+</html>

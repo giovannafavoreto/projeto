@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Inter, sans-serif;
+    
+  }
+  
+  /* Restaurar a aparência padrão dos links */
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Estilizar as tags semânticas HTML5 */
+  
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+
+:root {
+    --cor-primaria: #181D31;
+    --cor-secundaria: #678983;
+    --cor-terciaria: #E6DDC4;
+    --cor-quartenaria: #F0E9D2;
+    --cor-fundo: #f5f5f5;
+}
+body {
+    background-color: var(--cor-quartenaria);
+
+  }
+
+/* header */
+header nav {
+    align-items: center;
+}
+h1{
+    padding: 10px 20px;
+    
+}
+h2 {
+    padding: 10px 20px;
+}
+.navbar {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    height: 90px;
+    border-bottom-right-radius: 70%;
+    border-top-right-radius: 1%;
+    margin-bottom: 25px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    padding-left: 30px;
+    align-items: center;
+    
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .navbar-menu li {
+    position: relative;
+  }
+  
+  .navbar-menu li::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: var(--cor-terciaria);
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+  }
+  
+  .navbar-menu li:hover::before {
+    width: 60%;
+  }
+.Currículo{
+  width: 50%;
+  align-items: center;
+  background-color: var(--cor-fundo);
+}
+  .Currículo h1{
+    text-align: center;
+  }
+  .Currículo h2{
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+  }
+.Currículo p{
+    
+    padding: 2px 80px 2px 80px;
+    align-items: center;
+    text-align: left;
+}
+.Currículo li {
+    align-items: center;
+    padding: 3px 80px 3px 80px;
+    text-align: left;
+    
+  
+}
+.containerCurrículo aside {
+ margin-top: 20px;
+;
+}
+footer{ background-color: #181D31;height: 30px;}
