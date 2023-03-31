@@ -130,6 +130,7 @@ h2 {
 .música{
     padding: 0px;
     height: 450px;
+    margin-rigt: 40px;
     
 }
 aside{ width: 50%; float: left; padding-left: 80px; padding-top: 0px;padding-bottom: 90px; padding-right: 50px;margin-top: 0%;}
